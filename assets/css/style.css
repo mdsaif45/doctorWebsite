@@ -1,0 +1,162 @@
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: monospace;
+		/*font-size: 20px;*/
+		background-color: rgb(0, 0, 0);
+		
+	}
+	h1, h2, h3, h4{
+		font-weight: bold;
+	}
+	body{
+		/*background-color: lightgrey;*/
+	}
+	#container{
+		height: 800px;
+	}
+	#navbar{
+		width: 100%;
+		border: 1px solid black;
+		/*background-color: coral;*/
+		text-align: center;
+		font-family: monospace;
+		font-size: x-large;
+		font-weight: bold;
+		font-size: x-large;
+		font-weight: bold;
+		color: dimgrey;
+		
+	}
+	#nav{
+		list-style: none;
+		display: inline;
+		text-decoration: none;
+		color: dimgrey;
+
+	}
+	#logo{
+		display: inline-block;
+		float: left;
+		text-align: left;
+	}
+	nav > span{
+		text-align: left;
+	}
+	#nav > li {
+		display: inline;
+		margin-right: 25px;
+		
+	}
+	#nav li a{
+		text-decoration: none;
+		color: gray;
+	}
+	#tab{
+		width:30%;
+		float: left;
+		text-align: right;
+		/*border: 1px solid black;*/
+		/*background-color: beige;*/
+		height: 200px;
+		padding: 10px;
+
+	}
+	#window{
+		margin-top: 20px;
+		
+	}
+	#tab-list{
+		list-style: none;
+
+	}
+	#tab li a{
+		padding-right: 60px;
+		font-size: 20px;
+		color: gray;
+	}
+	#main{
+		width: 33%;
+		float: left;
+		/*border: 1px solid gray;*/
+		/*border-top: 1px solid white;*/
+		/*background-color: cyan;*/
+		color: white !important;
+		font-size: 15px;
+		/*margin-left: 20px;*/
+		padding: 10px;
+	}
+	#main h3{
+		color: beige;
+	}
+	#main p{
+		color: grey;
+	}
+	td a{
+		text-decoration: none;
+		color: gray;
+	}
+	#sider{
+		width: 30%;
+		float: left;
+		/*border: 1px solid black;*/
+		/*background-color: lightpink;*/
+		color: white;
+		padding: 10px;
+	}
+	#footer{
+		color: white;
+		padding: 10px;
+        clear:both;
+        color:pink;
+        text-align: center;
+        /*position: fixed;*/
+        bottom: 3px;
+
+	}
+	.mid{
+		width: 50%; padding-top: 200px; height: 65vh;
+	}
+	img{
+		width: 80px;
+		height: 80px;
+		border: 2px solid skyblue;
+		margin-right: 30px;
+		padding: 5px;
+	}
+	input{
+		background-color: ghostwhite;
+		/*color: black;*/
+	}
+	#email-box{
+		border: none;
+	}
+	#msg-box{
+		border: none;
+		margin-top: 10px;
+		height: 100px;
+		width: 300px;
+	}
+	textarea{
+		background-color: ghostwhite;
+		color: black;	
+		border: none;
+		margin-top: 10px;
+		height: 100px;
+		width: 300px;
+	}
+  	button{
+  		font-size: 15px;
+	    background-color: lightgrey;
+	    width: 60px;
+	    height: 25px;
+	    border: none;
+	    border-color: darkviolet;
+	    font-weight: bold;
+	    box-shadow: 2px 2px 0px 0px darkviolet;
+	    margin-top: 10px;
+	}
+	button:hover{
+	    background-color: grey;
+	    color: white;
+	}
